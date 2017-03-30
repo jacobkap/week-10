@@ -4,6 +4,55 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+#number_324 {
+  color: #4b9caf;
+  font-size: 6em
+}
+
+#modal_store {
+  font-size: 2.1em;
+}
+
+.btn-group {
+  float: right;
+  background-color: #4b9caf;
+  color: #4b9caf;
+
+}
+
+#modal_id {
+  display: block;
+  font-size: 1.0em;
+  text-align: left;
+  padding: 7px;
+}
+
+.dropdown-menu>li>a {
+  float: right;
+}
+
+
+.dropdown-menu {
+    left: -120px;
+    text-align: right;
+  }
+
+a {
+    color: black;
+    float: left;
+    font-size: 1.4em;
+    font-weight: bold;
+      z-index: 100;
+}
+
+.col-lg-6 {
+  margin-top: 15px;
+}
+
+.glyphicon.glyphicon-search {
+  color: #2f92e7;
+}
+
 .map {
     position: absolute;
     right: 0px;
@@ -74,13 +123,21 @@ Media Queries
 ============= */
 
 @media screen and (min-width: 480px) and (max-width: 800px) {
-    /*.item {
-        background-color: blue;
-    }*/
+  .map {
+      left: 200px;
+  }
+
+  .sidebar {
+      width: 200px;
+  }
 }
 
 @media screen and (max-width: 479px) {
-    /*.item {
-        background-color: red;
-    }*/
+  .map {
+      left: 0px;
+  }
+
+  .sidebar {
+      width: 0px;
+  }
 }
